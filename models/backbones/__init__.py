@@ -26,7 +26,7 @@ from .pppconvresnet import PPPResNet, PPPResNetV1d
 from .Gatedpconvresnet import GatedPResNet, GatedPResNetV1d
 from .GatedSpconvresnet import GatedSPResNet, GatedSPResNetV1d
 from .Gatedpconv1resnet import GatedP1ResNet
-
+from .Gatedhwconvresnet import GatedHWResNet, GatedHWResNetV1d
 __all__ = [
     'RegNet', 'ResNet', 'ResNetV1d', 'ResNeXt', 'SSDVGG', 'HRNet',
     'MobileNetV2', 'Res2Net', 'HourglassNet', 'DetectoRS_ResNet',
@@ -36,6 +36,6 @@ __all__ = [
     'PResNet','PResNetV1d','APResNet','APResNetV1d',
     'ARPResNet','ARPResNetV1d','PPResNet','PPResNetV1d','PPPResNet','PPPResNetV1d',
     'RPResNet','RPResNetV1d','GatedPResNet','GatedPResNetV1d','GatedSPResNet','GatedSPResNetV1d',
-    'GatedP1ResNet',
+    'GatedP1ResNet','GatedHWResNet','GatedHWResNetV1d'
     
 ]
