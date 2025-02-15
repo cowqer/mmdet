@@ -29,6 +29,7 @@ from .Gatedpconv1resnet import GatedP1ResNet
 from .Gatedhwconvresnet import GatedHWResNet, GatedHWResNetV1d
 from .Gatedhwconv1resnet import GatedHW1ResNet, GatedHW1ResNetV1d
 from .sgpconvresnet import SGPCResNet
+from .SSGpconvresnet import SSGPCResNet
 __all__ = [
     'RegNet', 'ResNet', 'ResNetV1d', 'ResNeXt', 'SSDVGG', 'HRNet',
     'MobileNetV2', 'Res2Net', 'HourglassNet', 'DetectoRS_ResNet',
@@ -39,5 +40,5 @@ __all__ = [
     'ARPResNet','ARPResNetV1d','PPResNet','PPResNetV1d','PPPResNet','PPPResNetV1d',
     'RPResNet','RPResNetV1d','GatedPResNet','GatedPResNetV1d','GatedSPResNet','GatedSPResNetV1d',
     'GatedP1ResNet','GatedHWResNet','GatedHWResNetV1d','GatedHW1ResNet','GatedHW1ResNetV1d',
-    'SGPCResNet'
+    'SGPCResNet','SSGPCResNet'
 ]
